@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account Creation</title>
+  <link rel="stylesheet" href="./pro.css">
+</head>
+<body>
+    <div class='account-creation'>
+        <h1>Create Account</h1>
+
+        <form id='accountForm'>
+          <div class='form-group'>
+            <label for='name'>Name:</label>
+            <input type='text' id='name' required>
+          </div>
+
+
+          <!-- Form fields -->
+          <div class='form-group'>
+            <label for='email'>Email:</label>
+            <input type='email' id='email' required>
+          </div>
+
+          <div class='form-group'>
+            <label for='number'>Number:</label>
+            <input type='tel' id='number' required>
+          </div>
+
+          <div class='form-group'>
+            <label for='password'>Password:</label>
+            <input type='text' id='password' required>
+          </div>
+
+          <div class='form-group'>
+            <label for='school'>School:</label>
+            <input type='text' id='school' required>
+          </div>
+
+          <div class='form-group'>
+            <label for='location'>Location:</label>
+            <input type='text' id='location' required>
+          </div>
+
+          <div class='form-group'>
+            <label for='state'>State:</label>
+            <input type='text' id='state' required>
+          </div>
+         
+  
+          <!-- Profile Picture -->
+          <div class='form-group'>
+            <label for='profile'>Profile Picture:</label>
+            <input type='file' id='profile' accept='image/*' required>
+          </div>
+          <p id='errorMessage' class='error'></p>
+          <button type='submit'>Create Account</button>
+        </form>
+      </div>
+
+
+  <footer>
+    <div id="footer">
+      <nav>
+          <ul>
+            <li><a href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="none" d="M0 0h24v24H0z"/>
+              <path d="M12 2L0 9l2 2v11h3v-6h4v6h3V11h4l2-2-12-7zm5.5 15h-11v-2H3v3h18v-3h-1.5v2z"/>
+            </svg></a></li>
+            <li><a href="./cart.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="none" d="M0 0h24v24H0z"/>
+              <path d="M11 17h2v-2h-2v2zm6-10c0-1.1-.9-2-2-2h-1.82l-1.6-3.61c-.25-.55-.81-.89-1.39-.89H9.41c-.58 0-1.13.34-1.39.89L6.82 5H5c-1.1 0-2 .9-2 2v1H0v2h2v11c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V10h2V8h-2V7zm-8-5h4l1.5 3.4H8.5L9 2zm9 20H5v-9h12v9zm0-11H5V8h2v1h2V8h4v1h2V8h2v3z"/>
+            </svg></a></li>
+            <li><a href="./app.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="none" d="M0 0h24v24H0z"/>
+              <path d="M22 12l-4-4v3H3v2h15v3l4-4zm-7-5v2h-7V7h7zm0 10h-7v-2h7v2z"/>
+            </svg></a></li>
+            <li><a href="./account.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="none" d="M0 0h24v24H0z"/>
+              <path d="M12 12c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4zm0-9c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3z"/>
+            </svg></a></li>
+          </ul>
+        </nav>
+</footer>
+
+<script src="./pro.js"></script>
+</body>
+</html>
